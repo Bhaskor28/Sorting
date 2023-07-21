@@ -28,7 +28,7 @@ void selectionsort(ll a[],ll n){
 for(ll i=0;i<n;i++){
     ll st=i;
     for(ll j=i+1;j<n;j++){
-        if(a[j]<=a[i]){
+        if(a[j]<=a[st]){
             st=j;
         }
     }
